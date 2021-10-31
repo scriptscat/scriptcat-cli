@@ -1,0 +1,33 @@
+{
+  "name": "scriptcat-cli",
+  "version": "1.0.0",
+  "description": "scriptcat,tampermonkey,userscript 油猴脚本脚手架",
+  "main": "index.js",
+  "keywords": [
+    "scriptcat",
+    "tampermoneky",
+    "userscript",
+    "generator"
+  ],
+  "bin": {
+    "scriptcat": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scriptscat/scriptcat-cli.git"
+  },
+  "author": "CodFrm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scriptscat/scriptcat-cli/issues"
+  },
+  "homepage": "https://github.com/scriptscat/scriptcat-cli#readme",
+  "dependencies": {
+    "commander": "^8.3.0",
+    "handlebars": "^4.7.7",
+    "inquirer": "^8.2.0"
+  }
+}
